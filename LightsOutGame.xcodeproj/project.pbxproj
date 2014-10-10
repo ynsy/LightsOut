@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD1EEBB619E5765F00FEEE1F /* LightsOutGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1EEBB519E5765F00FEEE1F /* LightsOutGame.swift */; };
+		FDB75E6919E56CBB00635938 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB75E6819E56CBB00635938 /* AppDelegate.swift */; };
+		FDB75E6B19E56CBB00635938 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB75E6A19E56CBB00635938 /* ViewController.swift */; };
+		FDB75E6E19E56CBB00635938 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB75E6C19E56CBB00635938 /* Main.storyboard */; };
+		FDB75E7019E56CBB00635938 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB75E6F19E56CBB00635938 /* Images.xcassets */; };
+		FDB75E7319E56CBB00635938 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDB75E7119E56CBB00635938 /* LaunchScreen.xib */; };
+		FDB75E7F19E56CBB00635938 /* LightsOutGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB75E7E19E56CBB00635938 /* LightsOutGameTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDB75E7919E56CBB00635938 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDB75E5B19E56CBB00635938 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDB75E6219E56CBB00635938;
+			remoteInfo = LightsOutGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD1EEBB519E5765F00FEEE1F /* LightsOutGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightsOutGame.swift; sourceTree = "<group>"; };
+		FDB75E6319E56CBB00635938 /* LightsOutGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightsOutGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB75E6719E56CBB00635938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDB75E6819E56CBB00635938 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDB75E6A19E56CBB00635938 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDB75E6D19E56CBB00635938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDB75E6F19E56CBB00635938 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FDB75E7219E56CBB00635938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FDB75E7819E56CBB00635938 /* LightsOutGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightsOutGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB75E7D19E56CBB00635938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDB75E7E19E56CBB00635938 /* LightsOutGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightsOutGameTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDB75E6019E56CBB00635938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB75E7519E56CBB00635938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDB75E5A19E56CBB00635938 = {
+			isa = PBXGroup;
+			children = (
+				FDB75E6519E56CBB00635938 /* LightsOutGame */,
+				FDB75E7B19E56CBB00635938 /* LightsOutGameTests */,
+				FDB75E6419E56CBB00635938 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDB75E6419E56CBB00635938 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDB75E6319E56CBB00635938 /* LightsOutGame.app */,
+				FDB75E7819E56CBB00635938 /* LightsOutGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDB75E6519E56CBB00635938 /* LightsOutGame */ = {
+			isa = PBXGroup;
+			children = (
+				FDB75E6819E56CBB00635938 /* AppDelegate.swift */,
+				FDB75E6A19E56CBB00635938 /* ViewController.swift */,
+				FDB75E6C19E56CBB00635938 /* Main.storyboard */,
+				FDB75E6F19E56CBB00635938 /* Images.xcassets */,
+				FDB75E7119E56CBB00635938 /* LaunchScreen.xib */,
+				FDB75E6619E56CBB00635938 /* Supporting Files */,
+			);
+			path = LightsOutGame;
+			sourceTree = "<group>";
+		};
+		FDB75E6619E56CBB00635938 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDB75E6719E56CBB00635938 /* Info.plist */,
+				FD1EEBB519E5765F00FEEE1F /* LightsOutGame.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDB75E7B19E56CBB00635938 /* LightsOutGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDB75E7E19E56CBB00635938 /* LightsOutGameTests.swift */,
+				FDB75E7C19E56CBB00635938 /* Supporting Files */,
+			);
+			path = LightsOutGameTests;
+			sourceTree = "<group>";
+		};
+		FDB75E7C19E56CBB00635938 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDB75E7D19E56CBB00635938 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDB75E6219E56CBB00635938 /* LightsOutGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB75E8219E56CBB00635938 /* Build configuration list for PBXNativeTarget "LightsOutGame" */;
+			buildPhases = (
+				FDB75E5F19E56CBB00635938 /* Sources */,
+				FDB75E6019E56CBB00635938 /* Frameworks */,
+				FDB75E6119E56CBB00635938 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LightsOutGame;
+			productName = LightsOutGame;
+			productReference = FDB75E6319E56CBB00635938 /* LightsOutGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDB75E7719E56CBB00635938 /* LightsOutGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB75E8519E56CBB00635938 /* Build configuration list for PBXNativeTarget "LightsOutGameTests" */;
+			buildPhases = (
+				FDB75E7419E56CBB00635938 /* Sources */,
+				FDB75E7519E56CBB00635938 /* Frameworks */,
+				FDB75E7619E56CBB00635938 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDB75E7A19E56CBB00635938 /* PBXTargetDependency */,
+			);
+			name = LightsOutGameTests;
+			productName = LightsOutGameTests;
+			productReference = FDB75E7819E56CBB00635938 /* LightsOutGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDB75E5B19E56CBB00635938 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = ynsy;
+				TargetAttributes = {
+					FDB75E6219E56CBB00635938 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					FDB75E7719E56CBB00635938 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = FDB75E6219E56CBB00635938;
+					};
+				};
+			};
+			buildConfigurationList = FDB75E5E19E56CBB00635938 /* Build configuration list for PBXProject "LightsOutGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDB75E5A19E56CBB00635938;
+			productRefGroup = FDB75E6419E56CBB00635938 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDB75E6219E56CBB00635938 /* LightsOutGame */,
+				FDB75E7719E56CBB00635938 /* LightsOutGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDB75E6119E56CBB00635938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB75E6E19E56CBB00635938 /* Main.storyboard in Resources */,
+				FDB75E7319E56CBB00635938 /* LaunchScreen.xib in Resources */,
+				FDB75E7019E56CBB00635938 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB75E7619E56CBB00635938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDB75E5F19E56CBB00635938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB75E6B19E56CBB00635938 /* ViewController.swift in Sources */,
+				FD1EEBB619E5765F00FEEE1F /* LightsOutGame.swift in Sources */,
+				FDB75E6919E56CBB00635938 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDB75E7419E56CBB00635938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB75E7F19E56CBB00635938 /* LightsOutGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDB75E7A19E56CBB00635938 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDB75E6219E56CBB00635938 /* LightsOutGame */;
+			targetProxy = FDB75E7919E56CBB00635938 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDB75E6C19E56CBB00635938 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDB75E6D19E56CBB00635938 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDB75E7119E56CBB00635938 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDB75E7219E56CBB00635938 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDB75E8019E56CBB00635938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDB75E8119E56CBB00635938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDB75E8319E56CBB00635938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LightsOutGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDB75E8419E56CBB00635938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LightsOutGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FDB75E8619E56CBB00635938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LightsOutGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightsOutGame.app/LightsOutGame";
+			};
+			name = Debug;
+		};
+		FDB75E8719E56CBB00635938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LightsOutGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightsOutGame.app/LightsOutGame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDB75E5E19E56CBB00635938 /* Build configuration list for PBXProject "LightsOutGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB75E8019E56CBB00635938 /* Debug */,
+				FDB75E8119E56CBB00635938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDB75E8219E56CBB00635938 /* Build configuration list for PBXNativeTarget "LightsOutGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB75E8319E56CBB00635938 /* Debug */,
+				FDB75E8419E56CBB00635938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDB75E8519E56CBB00635938 /* Build configuration list for PBXNativeTarget "LightsOutGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB75E8619E56CBB00635938 /* Debug */,
+				FDB75E8719E56CBB00635938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDB75E5B19E56CBB00635938 /* Project object */;
+}
